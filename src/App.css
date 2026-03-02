@@ -44,10 +44,26 @@ body {
   color: #00ffff;
   text-decoration: none;
   transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
 }
 
 .nav-logo:hover {
   color: #ffffff;
+}
+
+.nav-logo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid rgba(0, 255, 255, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-logo img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
 }
 
 .nav-menu {
@@ -103,6 +119,12 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   animation: fadeInUp 1s ease-out;
+}
+
+.hero .cursor {
+  color: #00ffff;
+  font-weight: 400;
+  animation: blink 1s infinite;
 }
 
 .hero p {
@@ -507,14 +529,7 @@ body {
   }
 }
 
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.05);
-  }
-  100% {
-    transform: scale(1);
-  }
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
 }
