@@ -26,7 +26,7 @@ function App() {
               <a href="/resume.pdf" className="btn secondary" download>Download CV</a>
             </div>
           </div>
-          <img src="/images.jpeg" alt="Ustu Bina Syahdiba" className="hero-photo" />
+          <img src={`${process.env.PUBLIC_URL}/images.jpeg`} alt="Ustu Bina Syahdiba" className="hero-photo" />
         </div>
       </section>
 
