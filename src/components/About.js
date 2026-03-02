@@ -8,6 +8,9 @@ const About = () => {
           Experienced in developing intelligent systems using ROS2, Python, and C++. Focused on bridging the gap
           between theoretical AI research and practical robotics applications for real-world impact.
         </p>
+        <p>
+          Aspiring to become the CEO of a leading humanoid robotics company in Indonesia, driving innovation and leadership in AI-driven robotic solutions.
+        </p>
       </div>
     </section>
   );

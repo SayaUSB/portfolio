@@ -9,6 +9,7 @@ const Skills = () => {
             <div className="badges">
               <span className="badge">C++</span>
               <span className="badge">Python</span>
+              <span className="badge">JavaScript</span>
             </div>
           </div>
           <div className="skills-category">
