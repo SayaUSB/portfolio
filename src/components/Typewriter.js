@@ -1,29 +1,30 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 
 const Typewriter = () => {
+  const strings = useMemo(
+    () => ["Ustu Bina Syahdiba", "a Robotics Engineer"],
+    []
+  );
+
   const [currentText, setCurrentText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {
-    const strings = ["Ustu Bina Syahdiba", "a Robotics Engineer"];
-
     const typeSpeed = 100;
     const deleteSpeed = 50;
     const pauseTime = 2000;
 
     const currentString = strings[currentIndex];
 
-    const handleTyping = () => {
+    const timeout = setTimeout(() => {
       if (isDeleting) {
         setCurrentText((prev) => {
           const updated = prev.slice(0, -1);
 
           if (updated.length === 0) {
-            setTimeout(() => {
-              setIsDeleting(false);
-              setCurrentIndex((prevIndex) => (prevIndex + 1) % strings.length);
-            }, pauseTime);
+            setIsDeleting(false);
+            setCurrentIndex((prevIndex) => (prevIndex + 1) % strings.length);
           }
 
           return updated;
@@ -35,15 +36,10 @@ const Typewriter = () => {
           setTimeout(() => setIsDeleting(true), pauseTime);
         }
       }
-    };
-
-    const timeout = setTimeout(
-      handleTyping,
-      isDeleting ? deleteSpeed : typeSpeed
-    );
+    }, isDeleting ? deleteSpeed : typeSpeed);
 
     return () => clearTimeout(timeout);
-  }, [currentText, currentIndex, isDeleting]);
+  }, [currentText, currentIndex, isDeleting, strings]);
 
   return (
     <h1>
