@@ -1,41 +1,23 @@
+import { skillCategories } from "../data/skills";
+
 const Skills = () => {
   return (
     <section id="skills" className="section skills">
       <div className="container">
         <h2>Skills</h2>
         <div className="skills-categories">
-          <div className="skills-category">
-            <h3>Programming</h3>
-            <div className="badges">
-              <span className="badge">C++</span>
-              <span className="badge">Python</span>
-              <span className="badge">JavaScript</span>
+          {skillCategories.map((category) => (
+            <div className="skills-category" key={category.id}>
+              <h3>{category.title}</h3>
+              <div className="badges">
+                {category.badges.map((badge) => (
+                  <span className="badge" key={`${category.id}-${badge}`}>
+                    {badge}
+                  </span>
+                ))}
+              </div>
             </div>
-          </div>
-          <div className="skills-category">
-            <h3>AI/ML</h3>
-            <div className="badges">
-              <span className="badge">Reinforcement Learning</span>
-              <span className="badge">Deep Learning</span>
-              <span className="badge">TensorFlow</span>
-            </div>
-          </div>
-          <div className="skills-category">
-            <h3>Robotics</h3>
-            <div className="badges">
-              <span className="badge">ROS2</span>
-              <span className="badge">Simulation</span>
-              <span className="badge">Computer Vision</span>
-            </div>
-          </div>
-          <div className="skills-category">
-            <h3>Tools</h3>
-            <div className="badges">
-              <span className="badge">Git</span>
-              <span className="badge">Linux</span>
-              <span className="badge">VS Code</span>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
