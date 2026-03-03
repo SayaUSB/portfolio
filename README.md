@@ -1,4 +1,4 @@
-# Portofolio Ustu Bina Syahdiba - Insinyur Robotika
+# Portofolio Ustu Bina Syahdiba
 
 Situs web portofolio profesional untuk Ustu Bina Syahdiba, seorang spesialis dalam AI, reinforcement learning, dan robotika humanoid. Situs ini menampilkan proyek, pengalaman, keterampilan, dan pencapaian dalam desain yang bersih dan modern.
 
