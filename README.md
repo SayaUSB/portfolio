@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# Portofolio Ustu Bina Syahdiba - Insinyur Robotika
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Situs web portofolio profesional untuk Ustu Bina Syahdiba, seorang spesialis dalam AI, reinforcement learning, dan robotika humanoid. Situs ini menampilkan proyek, pengalaman, keterampilan, dan pencapaian dalam desain yang bersih dan modern.
 
-## Available Scripts
+## 🚀 Fitur
 
-In the project directory, you can run:
+- **Desain Responsif**: Dioptimalkan untuk desktop, tablet, dan perangkat mobile
+- **Animasi Pengetikan**: Bagian hero dengan efek typewriter berulang antara dua frasa
+- **Arsitektur Modular**: Komponen React dipisahkan menjadi file yang dapat digunakan ulang
+- **Pengguliran Halus**: Navigasi dengan perilaku pengguliran halus
+- **Tema Gelap**: Skema warna fokus teknologi modern
+- **Bagian**:
+  - Hero dengan foto profil dan tombol ajakan bertindak
+  - Tentang dengan deskripsi pribadi dan aspirasi karir
+  - Proyek menampilkan karya utama (perencana footstep berbasis RL, deteksi peluit)
+  - Pencapaian dengan gambar dan deskripsi
+  - Keterampilan dikategorikan (Pemrograman, AI/ML, Robotika)
+  - Pengalaman & Penelitian timeline
+  - Kontak dengan tautan sosial
 
-### `npm start`
+## � Screenshots Bagian
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Hero Section
+![Hero Section](https://via.placeholder.com/800x400/1a1a1a/ffffff?text=Hero+Section+-+Animasi+Pengetikan+%26+Foto+Profil)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### About Section
+![About Section](https://via.placeholder.com/800x400/2a2a2a/ffffff?text=About+Section+-+Deskripsi+Pribadi+%26+Aspirasi)
 
-### `npm test`
+### Projects Section
+![Projects Section](https://via.placeholder.com/800x400/3a3a3a/ffffff?text=Projects+Section+-+Perencana+Footstep+%26+Deteksi+Peluit)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Achievements Section
+![Achievements Section](https://via.placeholder.com/800x400/4a4a4a/ffffff?text=Achievements+Section+-+Pencapaian+dengan+Gambar)
 
-### `npm run build`
+### Skills Section
+![Skills Section](https://via.placeholder.com/800x400/5a5a5a/ffffff?text=Skills+Section+-+Keterampilan+Dikategorikan)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Experience & Research Section
+![Experience Section](https://via.placeholder.com/800x400/6a6a6a/ffffff?text=Experience+%26+Research+-+Timeline+Vertikal)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Contact Section
+![Contact Section](https://via.placeholder.com/800x400/7a7a7a/ffffff?text=Contact+Section+-+Tautan+Sosial+%26+Email)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## �🛠 Tech Stack
 
-### `npm run eject`
+- **Frontend**: React.js dengan Hooks (useState, useEffect)
+- **Styling**: CSS3 dengan Flexbox/Grid, media queries responsif
+- **Animasi**: Keyframe CSS untuk kursor typewriter dan transisi
+- **Build Tool**: Create React App
+- **Deployment**: Mendukung GitHub Pages dan Vercel
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📁 Struktur Proyek
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+portfolio/
+├── public/
+│   ├── index.html
+│   └── images.jpeg (foto profil)
+├── src/
+│   ├── components/
+│   │   ├── Typewriter.js
+│   │   ├── Hero.js
+│   │   ├── Navbar.js
+│   │   ├── About.js
+│   │   ├── Projects.js
+│   │   ├── Achievements.js
+│   │   ├── Skills.js
+│   │   ├── Experience.js
+│   │   └── Contact.js
+│   ├── App.js (komponen utama)
+│   ├── App.css (gaya global)
+│   ├── index.js (entry point React)
+│   └── index.css
+├── package.json
+├── README.md
+└── style.css
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🏁 Instalasi
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Klon repositori:
+   ```bash
+   git clone https://github.com/sayaUSB/portfolio.git
+   cd portfolio
+   ```
 
-## Learn More
+2. Instal dependensi:
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Jalankan server pengembangan:
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   Buka [http://localhost:3000](http://localhost:3000) untuk melihat di browser.
 
-### Code Splitting
+## 🚀 Build & Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Build React
+```bash
+npm run build
+```
 
-### Analyzing the Bundle Size
+## 📞 Kontak
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ustu Bina Syahdiba
+- Email: binasyahdiba@gmail.com
+- LinkedIn: [linkedin.com/in/us2b](https://linkedin.com/in/us2b)
+- GitHub: [github.com/sayaUSB](https://github.com/sayaUSB)
