@@ -1,1 +1,290 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"><link rel="manifest" href="/manifest.json"/><title>Portfolio - Ustu Bina Syahdiba</title><script src="src/index.js"></script><link href="/static/css/main.3ed600b8.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ustu Bina Syahdiba - AI Engineer & Reinforcement Learning Enthusiast Portfolio">
+  <meta name="keywords" content="AI Engineer, Machine Learning, Reinforcement Learning, Python, TensorFlow, PyTorch">
+  <meta name="author" content="Ustu Bina Syahdiba">
+  
+  <!-- Open Graph / Social Preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ustu Bina Syahdiba - AI Engineer Portfolio">
+  <meta property="og:description" content="Passionate AI Engineer specializing in Reinforcement Learning and Machine Learning">
+  <meta property="og:image" content="assets/profile.jpeg">
+  
+  <title>Ustu Bina Syahdiba - AI Engineer Portfolio</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ============================================
+       KIMI K2 TEMPLATE INTEGRATION GUIDE
+       ============================================
+       
+       SLOT MAPPING:
+       - HEADER_SLOT: Sticky navigation (lines 62-95)
+       - HERO_SLOT: Hero section (lines 98-140)
+       - MAIN_CONTENT_SLOT: All content sections (lines 143-350)
+       - FOOTER_SLOT: Footer section (lines 353-370)
+       
+       To integrate into Kimi K2:
+       1. Copy each marked section to its corresponding slot
+       2. Ensure CSS and JS files are linked in the template head
+       3. Upload assets to the template's assets folder
+       ============================================ -->
+
+  <!-- ============================================
+       KIMI-K2: HEADER_SLOT START
+       ============================================ -->
+  <header class="site-header" id="header">
+    <nav class="main-nav" role="navigation" aria-label="Main navigation">
+      <div class="nav-container">
+        <!-- Brand with Avatar -->
+        <a href="#hero" class="nav-brand" aria-label="Home">
+          <div class="nav-avatar">
+            <img src="assets/profile.jpeg" alt="UBS" loading="lazy" width="40" height="40">
+          </div>
+          <span class="nav-brand-text">Ustu Bina Syahdiba</span>
+        </a>
+        
+        <!-- Desktop Navigation Links -->
+        <ul class="nav-links" role="menubar">
+          <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+          <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+          <li role="none"><a href="#achievements" class="nav-link" role="menuitem">Achievements</a></li>
+          <li role="none"><a href="#skills" class="nav-link" role="menuitem">Skills</a></li>
+          <li role="none"><a href="#experience" class="nav-link" role="menuitem">Experience</a></li>
+          <li role="none"><a href="#contact" class="nav-link nav-link-cta" role="menuitem">Contact</a></li>
+        </ul>
+        
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobileNav">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+      
+      <!-- Mobile Navigation Menu -->
+      <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+        <ul class="mobile-nav-links">
+          <li><a href="#about" class="mobile-nav-link">About</a></li>
+          <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+          <li><a href="#achievements" class="mobile-nav-link">Achievements</a></li>
+          <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+          <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+          <li><a href="#contact" class="mobile-nav-link mobile-nav-link-cta">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- KIMI-K2: HEADER_SLOT END -->
+
+  <main id="main-content">
+    <!-- ============================================
+         KIMI-K2: HERO_SLOT START
+         ============================================ -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <p class="hero-greeting">Hello, I am</p>
+            <h1 class="hero-name" id="hero-heading">
+              <span class="name-line name-highlight"></span>
+            </h1>
+            <p class="hero-subtitle">Passionate AI Engineer | Reinforcement Learning Enthusiast</p>
+            
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-primary">
+                <span>View Projects</span>
+                <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </a>
+              <a href="assets/resume.pdf" class="btn btn-secondary" download id="downloadCvBtn">
+                <span>Download CV</span>
+                <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          
+          <div class="hero-image-wrapper">
+            <div class="hero-image-container">
+              <div class="hero-image-glow"></div>
+              <img 
+                src="assets/profile.jpeg" 
+                alt="Ustu Bina Syahdiba - AI Engineer" 
+                class="hero-image"
+                loading="eager"
+                width="400"
+                height="400"
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Decorative Elements -->
+      <div class="hero-decoration" aria-hidden="true">
+        <div class="glow-orb glow-orb-1"></div>
+        <div class="glow-orb glow-orb-2"></div>
+        <div class="grid-pattern"></div>
+      </div>
+    </section>
+    <!-- KIMI-K2: HERO_SLOT END -->
+
+    <!-- ============================================
+         KIMI-K2: MAIN_CONTENT_SLOT START
+         ============================================ -->
+    
+    <!-- About Section -->
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">About Me</span>
+          <h2 class="section-title" id="about-heading">Who I Am</h2>
+        </header>
+        
+        <div class="about-content">
+          <p class="about-text" id="aboutText">
+            <!-- Content loaded from JS data object -->
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">My Work</span>
+          <h2 class="section-title" id="projects-heading">Featured Projects</h2>
+        </header>
+        
+        <div class="projects-grid" id="projectsGrid" role="list">
+          <!-- Project cards rendered from JS data object -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements section" id="achievements" aria-labelledby="achievements-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Recognition</span>
+          <h2 class="section-title" id="achievements-heading">Achievements</h2>
+        </header>
+        
+        <div class="achievements-list" id="achievementsList" role="list">
+          <!-- Achievement items rendered from JS data object -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Expertise</span>
+          <h2 class="section-title" id="skills-heading">Skills & Technologies</h2>
+        </header>
+        
+        <div class="skills-content" id="skillsContent">
+          <!-- Skills groups rendered from JS data object -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Journey</span>
+          <h2 class="section-title" id="experience-heading">Experience & Education</h2>
+        </header>
+        
+        <div class="experience-timeline" id="experienceTimeline">
+          <!-- Experience items rendered from JS data object -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-content">
+            <a href="assets/resume.pdf" class="btn btn-primary btn-large" download>
+              <span>Download My CV</span>
+              <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+              </svg>
+            </a>
+        </div>
+      </div>
+    </section>
+    <!-- KIMI-K2: MAIN_CONTENT_SLOT END -->
+  </main>
+
+  <!-- ============================================
+       KIMI-K2: FOOTER_SLOT START
+       ============================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="footer-name">Ustu Bina Syahdiba</span>
+          <p class="footer-tagline">AI Engineer & Researcher</p>
+        </div>
+        
+        <div class="footer-social" id="footerSocial">
+          <!-- Social links rendered from JS data object -->
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          &copy; <span id="currentYear">2024</span> Ustu Bina Syahdiba. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- KIMI-K2: FOOTER_SLOT END -->
+
+  <!-- Project Modal -->
+  <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Close modal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 6L6 18M6 6l12 12"/>
+        </svg>
+      </button>
+      <div class="modal-body" id="modalBody">
+        <!-- Modal content injected via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top" aria-hidden="true">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <!-- Main JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
