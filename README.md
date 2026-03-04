@@ -29,6 +29,8 @@ cv-portfolio-vanilla/
 Website ini terdiri dari beberapa section utama yang menampilkan informasi portofolio secara terstruktur:
 
 ### 🏠 Hero Section
+![alt text](screenshots/image_hero.png)
+
 Section pertama yang menyambut pengunjung dengan:
 - Nama lengkap dengan efek mengetik
 - Subtitle yang menjelaskan posisi/profesi
@@ -36,12 +38,16 @@ Section pertama yang menyambut pengunjung dengan:
 - Tombol aksi: "View Projects" dan "Download CV"
 
 ### 👤 About Section
+![alt text](screenshots/image_aboutme.png)
+
 Section tentang diri yang berisi:
 - Deskripsi singkat tentang latar belakang
 - Keahlian utama
 - Minat dan pengalaman dalam robotics dan machine learning
 
 ### 🚀 Projects Section
+![alt text](screenshots/image_projects.png)
+
 Section proyek yang menampilkan:
 - Daftar proyek dalam format grid
 - Setiap proyek memiliki ikon, judul, deskripsi, dan tag teknologi
@@ -49,12 +55,16 @@ Section proyek yang menampilkan:
 - Modal popup untuk detail proyek saat diklik
 
 ### 🏆 Achievements Section
+![alt text](screenshots/image_achievements.png)
+
 Section pencapaian yang menunjukkan:
 - Medali dan penghargaan yang diraih
 - Deskripsi detail pencapaian
 - Ikon trophy untuk setiap achievement
 
 ### 💻 Skills Section
+![alt text](screenshots/image_skills.png)
+
 Section keterampilan yang dikelompokkan menjadi:
 - Programming Languages (Python, C++)
 - AI/ML Frameworks (TensorFlow, Stable-Baselines3, OpenVINO)
@@ -62,6 +72,8 @@ Section keterampilan yang dikelompokkan menjadi:
 - Optimization Algorithms (Genetic Algorithm, Particle Swarm)
 
 ### 📚 Experience Section
+![alt text](screenshots/image_experiences.png)
+
 Section pengalaman yang menampilkan:
 - Timeline pengalaman kerja dan pendidikan
 - Posisi, perusahaan, dan periode waktu
@@ -69,8 +81,9 @@ Section pengalaman yang menampilkan:
 - Icon marker untuk setiap entry
 
 ### 📞 Contact Section
+![alt text](screenshots/image_contacts.png)
+
 Section kontak untuk menghubungi:
-- Deskripsi singkat tentang ketersediaan
 - Tombol "Download My CV" untuk mengunduh resume
 - Link sosial media (GitHub, LinkedIn, Email)
 
