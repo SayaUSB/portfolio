@@ -1,6 +1,6 @@
 # Portofolio CV - Vanilla JS
 
-Website portofolio CV dengan tema gelap dan aksen neon teal, dibuat menggunakan JavaScript murni, HTML5, dan CSS3.
+Website portofolio CV dengan tema gelap dibuat menggunakan JavaScript murni, HTML5, dan CSS3.
 
 ---
 
@@ -30,7 +30,7 @@ Website ini terdiri dari beberapa section utama yang menampilkan informasi porto
 
 ### 🏠 Hero Section
 Section pertama yang menyambut pengunjung dengan:
-- Nama lengkap dengan efek mengetik (typewriter)
+- Nama lengkap dengan efek mengetik
 - Subtitle yang menjelaskan posisi/profesi
 - Foto profil bulat dengan efek glow
 - Tombol aksi: "View Projects" dan "Download CV"
@@ -38,12 +38,12 @@ Section pertama yang menyambut pengunjung dengan:
 ### 👤 About Section
 Section tentang diri yang berisi:
 - Deskripsi singkat tentang latar belakang
-- Keahlian utama (AI Engineer, Reinforcement Learning)
+- Keahlian utama
 - Minat dan pengalaman dalam robotics dan machine learning
 
 ### 🚀 Projects Section
 Section proyek yang menampilkan:
-- Daftar proyek dalam format grid (3 kolom di desktop)
+- Daftar proyek dalam format grid
 - Setiap proyek memiliki ikon, judul, deskripsi, dan tag teknologi
 - Proyek featured dengan efek glow
 - Modal popup untuk detail proyek saat diklik
@@ -51,7 +51,7 @@ Section proyek yang menampilkan:
 ### 🏆 Achievements Section
 Section pencapaian yang menunjukkan:
 - Medali dan penghargaan yang diraih
-- Deskripsi detail pencapaian (contoh: 13 medali FIRA RoboWorld Cup)
+- Deskripsi detail pencapaian
 - Ikon trophy untuk setiap achievement
 
 ### 💻 Skills Section
